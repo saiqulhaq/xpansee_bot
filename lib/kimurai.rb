@@ -17,6 +17,8 @@ require_relative 'kimurai/base_helper'
 require_relative 'kimurai/pipeline'
 require_relative 'kimurai/base'
 
+require_relative '../app/shopee_spider'
+
 module Kimurai
   class << self
     def configuration
